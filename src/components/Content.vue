@@ -63,7 +63,7 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
                                     <a href="#">
                                         <img
                                             alt="罗克·马克·克里斯蒂安·卡博雷"
-                                            src="../assets/test1.jpg"
+                                            src="../assets/test4.webp"
                                             decoding="async"
                                             width="90"
                                             height="126"
