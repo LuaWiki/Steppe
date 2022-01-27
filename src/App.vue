@@ -12,7 +12,6 @@ import Content from './components/Content.vue';
 <style>
 * {
   margin: 0;
-
   padding: 0;
 }
 </style>
