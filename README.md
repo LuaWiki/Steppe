@@ -1,2 +1,2 @@
-# Stepe
+# Steppe
 LuaWiki前端
