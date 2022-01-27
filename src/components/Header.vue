@@ -59,7 +59,7 @@ const showDropdown5 = () => {};
   text-align: center;
   /*border: 1px solid rgba(187, 187, 187, 100);*/
   position: fixed;
-  width: 100%;
+  width: 100%;z-index: 2;
 }
 .nav-left-title {
   line-height: 108px;
