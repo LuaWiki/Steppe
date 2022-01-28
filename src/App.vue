@@ -29,6 +29,6 @@ a {
   background: none;
 }
 .n-card-header__extra {
-  max-width: 50%;
+  max-width: 45%;
 }
 </style>
