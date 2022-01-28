@@ -6,7 +6,7 @@ import { NSpace } from 'naive-ui'
     <div class="footer">
         <div class="footer-content">
             <div class="footer-content-links">
-                <n-space :size="[24,12]">
+                <n-space :size="[24,0]">
                     <a href="#">隐私政策</a>
                     <a href="#">关于 Steppe</a>
                     <a href="#">免责声明</a>
@@ -38,7 +38,7 @@ import { NSpace } from 'naive-ui'
 }
 .footer-content {
     color: rgba(255, 255, 255, 100);
-    font-size: 28px;
+    font-size: 24px;
     text-align: left;
     font-family: SourceHanSansSC-regular;
 }
@@ -49,8 +49,5 @@ import { NSpace } from 'naive-ui'
     font-size: small;
     line-height: 1.4;
     padding: 1em 0;
-}
-.footer-content-links{
-    line-height: 32px;
 }
 </style>
