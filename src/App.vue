@@ -28,4 +28,7 @@ a {
   color: #0645ad;
   background: none;
 }
+.n-card-header__extra {
+  max-width: 50%;
+}
 </style>
