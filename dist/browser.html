@@ -214,7 +214,7 @@
       else
         return false;
     }
-    if (isIE() || window.navigator.userAgent.indexOf("TBS") != -1) {
+    if (!isIE() && window.navigator.userAgent.indexOf("TBS") == -1) {
       window.location.href = "./browser.html";
     }
   </script>
