@@ -30,10 +30,10 @@ import { NSpace } from 'naive-ui'
 
 <style scoped>
 .footer {
-    height: 32.883vh;
+    /*height: 32.883vh;*/
     background-color: rgba(91, 91, 91, 0.8);
     display: flex;
-    padding: 0 3vw;
+    padding: 5vh 3vw;
     align-items: center;
 }
 .footer-content {
