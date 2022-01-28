@@ -36,7 +36,7 @@ import { Search as SearchIcon } from "@vicons/fa"
 <style scoped>
 .overview {
     min-height: 83.845vh;
-    background-image: url(../assets/testBackground.jpg);
+    background-image: url(../assets/test7.jpg);
 }
 .overview-slogon {
     line-height: 48px;

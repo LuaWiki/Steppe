@@ -128,6 +128,17 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
                                 <a href="#">塞尔维亚正教会</a>）
                             </p>
                             <div class="content-card-content-otd">
+                                <div class="content-card-content-otd-rightImage">
+                                    <a href="#">
+                                        <img
+                                            alt="不知道"
+                                            src="../assets/test8.jpg"
+                                            decoding="async"
+                                            width="120"
+                                            height="97"
+                                        />
+                                    </a>
+                                </div>
                                 <dl>
                                     <dt>
                                         <a href="#">1142年</a>
@@ -209,6 +220,17 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
                         </template>
                         <div class="content-card-content">
                             <div class="content-card-content-text">
+                                <div class="content-card-content-text-leftImage">
+                                    <a href="#">
+                                        <img
+                                            alt="i dont no"
+                                            src="../assets/test6.png"
+                                            decoding="async"
+                                            width="143"
+                                            height="190"
+                                        />
+                                    </a>
+                                </div>
                                 <p>
                                     〈
                                     <b>
@@ -321,6 +343,47 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
                             <span class="content-card-title">你知道吗</span>
                         </template>
                     </n-card>
+                    <n-card>
+                        <template #header-extra>
+                            <div class="content-card-extra">
+                                <ul>
+                                    <li>
+                                        <a href="#">优良条目（候选）</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">存档</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </template>
+                        <div classs="content-card-content">
+                            <div class="content-card-content-text">
+                                <div class="content-card-content-text-leftImage">
+                                    <a href="#">
+                                        <img
+                                            alt="i dont no"
+                                            src="../assets/test5.jpg"
+                                            decoding="async"
+                                            width="140"
+                                            height="105"
+                                        />
+                                    </a>
+                                </div>
+                                <p>
+                                    <b>
+                                        <a href="#">澳洲山庄</a>
+                                    </b>为一件位于
+                                    <a href="#">中华人民共和国</a>
+                                    <a href="#">广东省广州市</a>
+                                    <a href="#">黄埔区</a>
+                                    <a href="#">新龙镇</a>金坑村的建筑开发案，占地逾千亩，由广州市澳美房地产开发公司开发。澳洲山庄于1997年动工，但由于澳美公司资金链断裂，工程于2001年停工。为筹措资金，澳美公司将部分澳洲山庄的土地、房屋等资产抵押或变卖，使澳洲山庄地块被分割，产生了权属争议。在2011年、2016年，澳洲山庄两度传出重建消息，但因为地块权属争议，重建计划没有施行，山庄也烂尾至今。
+                                </p>
+                            </div>
+                        </div>
+                        <template #header>
+                            <span class="content-card-title">优良条目</span>
+                        </template>
+                    </n-card>
                 </n-space>
             </n-grid-item>
         </n-grid>
@@ -397,6 +460,7 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
 }
 .content-card-content p {
     margin: 0.5em 0;
+    margin-top: 0;
 }
 .content-card-content-otd dl {
     padding-left: 1em;
@@ -436,7 +500,27 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
 .content-card-content-text {
     font-size: 0.938rem;
 }
-.content-card-content-dyk {
+.content-card-content-dyk ul li {
     margin-bottom: 0.5em;
+}
+.content-card-content-good {
+    line-height: 1.5em;
+    font-size: 0.938rem;
+}
+.content-card-content-text-leftImage {
+    margin: 0 0.5em 0.5em 0;
+    clear: left;
+    float: left;
+}
+.content-card-content-text p {
+    margin: 0;
+}
+.content-card-content-otd-rightImage {
+    margin: 0 0 0.5em 0.5em;
+    clear: right;
+    float: right;
+}
+.content-card-content-text-leftImage img {
+    margin: 0.4em 0.9em 0.3em 0;
 }
 </style>
