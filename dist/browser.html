@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>浏览器问题</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <!--<base target="_blank">-->
+  <base href="." target="_blank">
+  <style type="text/css">
+    /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      margin: 0;
+      padding: 0
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block
+    }
+
+    body {
+      line-height: 1
+    }
+
+    ol,
+    ul {
+      list-style: none
+    }
+
+    a {
+      text-decoration: none;
+      color: #0072c6;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: #004d8c;
+    }
+
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 10px;
+      font-size: 14px;
+      line-height: 24px;
+      color: #454545;
+      font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', DengXian, SimSun, 'Segoe UI', Tahoma, Helvetica, sans-serif;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 80px;
+      font-weight: 100;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 25px;
+      font-weight: 100;
+      margin: 10px 0;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    hr {
+      margin: 20px 0;
+      border: 0;
+      border-top: 1px solid #dadada
+    }
+
+    .clean {
+      clear: both;
+    }
+
+    .browser {
+      padding: 10px 0;
+    }
+
+    .browser li {
+      min-width: 118px;
+      height: 40px;
+      line-height: 22px;
+      float: left;
+      list-style: none;
+      padding-left: 40px;
+      background-size: 40px 40px;
+      background-repeat: no-repeat
+    }
+
+    .browser li a {
+      line-height: 40px;
+      padding-left: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>您的浏览器不能正确访问此应用程序</h1>
+  <p>您正在使用的浏览器内核过旧。这意味着在升级内核前，您将无法访问此应用程序。</p>
+  <hr>
+  <h2>使用更先进的浏览器</h2>
+  <p>推荐使用以下浏览器的最新版本。如果您的设备已有以下任意一个浏览器的最新版本，则直接使用该浏览器访问即可。</p>
+  <ul class="browser">
+    <li class="chrome"><a href="https://www.google.cn/chrome/?hl=zh-CN">Google Chrome</a></li>
+    <li class="edge"><a href="https://www.microsoft.com/zh-cn/edge">Microsoft Edge</a></li>
+    <li class="firefox"><a href="https://www.mozilla.org/zh-CN/firefox/browsers/">Mozilla Firefox</a></li>
+    <div class="clean"></div>
+  </ul>
+  <hr>
+  <p>如果您不知道该如何操作，请求助一些熟悉电子设备操作的朋友。如果您正在使用的是360浏览器、QQ浏览器、搜狗浏览器等，建议将此浏览器卸载，然后安装以上任意一个浏览器。</p>
+  <script>
+    function isIE() {
+      if (!!window.ActiveXObject || "ActiveXObject" in window)
+        return true;
+      else
+        return false;
+    }
+    if (isIE() || window.navigator.userAgent.indexOf("TBS") != -1) {
+      window.location.href = "./browser.html";
+    }
+  </script>
+  </head>
+</body>
+
+</html>

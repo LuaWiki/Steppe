@@ -50,7 +50,7 @@ import { NSpace, NDropdown, NButton } from 'naive-ui'
 .footer-content-copyright {
     font-size: small;
     line-height: 1.4;
-    padding: 0.5em 0;
+    padding: 1em 0;
 }
 .footer-content-links{
     line-height: 32px;
