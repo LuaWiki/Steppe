@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { NSpace, NDropdown, NButton } from 'naive-ui'
 
 import options1 from "./view/HeaderOptions1"

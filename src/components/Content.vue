@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
 </script>
 
@@ -522,5 +521,11 @@ import { NSpace, NCard, NGrid, NGridItem } from 'naive-ui'
 }
 .content-card-content-text-leftImage img {
     margin: 0.4em 0.9em 0.3em 0;
+}
+.content-card-extra{
+    max-width: 50%;
+}
+.content-card-extra ul{
+    width: 100%;
 }
 </style>

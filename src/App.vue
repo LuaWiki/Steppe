@@ -3,12 +3,14 @@
 import Header from './components/Header.vue';
 import Overview from './components/Overview.vue';
 import Content from './components/Content.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
   <Header />
   <Overview />
   <Content />
+  <Footer />
 </template>
 
 <style>

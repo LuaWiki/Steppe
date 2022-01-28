@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { NButton, NIcon } from 'naive-ui'
 import { Search as SearchIcon } from "@vicons/fa"
 </script>
@@ -63,7 +62,7 @@ import { Search as SearchIcon } from "@vicons/fa"
 }
 .overview-content-search {
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 9.3vh;
 }
 .overview-content-search-container {
     display: flex;
