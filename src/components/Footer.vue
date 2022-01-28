@@ -6,9 +6,9 @@ import { NSpace } from 'naive-ui'
     <div class="footer">
         <div class="footer-content">
             <div class="footer-content-links">
-                <n-space>
+                <n-space :size="[24,12]">
                     <a href="#">隐私政策</a>
-                    <a href="#">关于Steppe</a>
+                    <a href="#">关于 Steppe</a>
                     <a href="#">免责声明</a>
                     <a href="#">开发者</a>
                     <a href="#">统计</a>
