@@ -4,12 +4,14 @@ import Header from './components/Header.vue';
 import Overview from './components/Overview.vue';
 import Content from './components/Content.vue';
 import Footer from './components/Footer.vue';
+import Partake from './components/Partake.vue';
 </script>
 
 <template>
   <Header />
   <Overview />
   <Content />
+  <Partake />
   <Footer />
 </template>
 

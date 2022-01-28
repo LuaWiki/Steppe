@@ -1,7 +1,5 @@
 <script setup>
-import { ref } from 'vue'
-import { NSpace, NDropdown, NButton } from 'naive-ui'
-
+import { NSpace } from 'naive-ui'
 </script>
 
 <template>
