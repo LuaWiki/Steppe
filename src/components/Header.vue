@@ -12,11 +12,11 @@ import options5 from "./view/HeaderOptions5"
 // msg: String
 //})
 
-const showDropdown1 = () => {};
-const showDropdown2 = () => {};
-const showDropdown3 = () => {};
-const showDropdown4 = () => {};
-const showDropdown5 = () => {};
+const showDropdown1 = () => { };
+const showDropdown2 = () => { };
+const showDropdown3 = () => { };
+const showDropdown4 = () => { };
+const showDropdown5 = () => { };
 </script>
 
 <template>
@@ -53,26 +53,28 @@ const showDropdown5 = () => {};
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 108px;
-  line-height: 20px;
+  height: 80px;
+  /*line-height: 20px;*/
   background-color: rgba(86, 133, 170, 0.85);
   text-align: center;
   /*border: 1px solid rgba(187, 187, 187, 100);*/
   position: fixed;
-  width: 100%;z-index: 2;
+  width: 100%;
+  z-index: 2;
 }
 .nav-left-title {
-  line-height: 108px;
+  line-height: 80px;
   margin-left: 3vw;
   color: rgba(255, 255, 255, 100);
   font-size: 40px;
   text-align: left;
   font-family: SourceHanSerif-regular;
   color: #fff;
+  margin-top: -4px;
 }
 .nav-right {
-  line-height: 108px;
-  height: 108px;
+  line-height: 80px;
+  height: 80px;
   margin-right: 3vw;
 }
 .nav-right-buttons {

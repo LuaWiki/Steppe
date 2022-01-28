@@ -6,28 +6,34 @@ import { Search as SearchIcon } from "@vicons/fa"
 
 <template>
     <div class="overview">
-        <div class="overview-slogon">海纳百川 有容乃大</div>
-        <div
-            class="overview-notice"
-        >维基百科爱好者交流群（Telegram：@wikipedia_zh_n、Discord及IRC：#wikipedia-zh IRC://互联）欢迎大家加入。 [关闭]</div>
-        <div class="overview-search">
-            <div class="overview-search-container">
-                <input type="text" class="overview-search-container-input" placeholder="搜索Steppe" />
-                <span class="overview-search-container-button">
-                    <n-icon class="overview-search-container-button-icon">
-                        <search-icon></search-icon>
-                    </n-icon>
-                </span>
+        <div class="overview-content">
+            <div class="overview-content-slogon">海纳百川 有容乃大</div>
+            <div
+                class="overview-content-notice"
+            >维基百科爱好者交流群（Telegram：@wikipedia_zh_n、Discord及IRC：#wikipedia-zh IRC://互联）欢迎大家加入。 [关闭]</div>
+            <div class="overview-content-search">
+                <div class="overview-content-search-container">
+                    <input
+                        type="text"
+                        class="overview-content-search-container-input"
+                        placeholder="搜索Steppe"
+                    />
+                    <span class="overview-content-search-container-button">
+                        <n-icon class="overview-content-search-container-button-icon">
+                            <search-icon></search-icon>
+                        </n-icon>
+                    </span>
+                </div>
             </div>
-        </div>
-        <div
-            class="overview-hot"
-        >动态热门：永恒族·EDG电子竞技俱乐部·梅艳芳·逆局·陈静·One the Woman·苏桦伟·英雄联盟全球总决赛·智异山·Happiness</div>
-        <div class="overview-other">
-            <div class="overview-other-number">已有114,514篇条目</div>
-            <div class="overview-other-link">
-                分类 主题 求助
-                入门 沙盒 捐款
+            <div
+                class="overview-content-hot"
+            >动态热门：永恒族·EDG电子竞技俱乐部·梅艳芳·逆局·陈静·One the Woman·苏桦伟·英雄联盟全球总决赛·智异山·Happiness</div>
+            <div class="overview-content-other">
+                <div class="overview-content-other-number">已有114,514篇条目</div>
+                <div class="overview-content-other-link">
+                    分类 主题 求助
+                    入门 沙盒 捐款
+                </div>
             </div>
         </div>
     </div>
@@ -38,27 +44,28 @@ import { Search as SearchIcon } from "@vicons/fa"
     min-height: 83.845vh;
     background-image: url(../assets/test7.jpg);
 }
-.overview-slogon {
-    line-height: 48px;
+.overview-content-slogon {
+    line-height: 44px;
     padding-top: 19.343vh;
     color: rgba(255, 255, 255, 100);
-    font-size: 48px;
+    font-size: 44px;
     text-align: center;
     font-family: SourceHanSansSC-bold;
 }
-.overview-notice {
+.overview-content-notice {
     padding-top: 2.8vh;
     line-height: 18px;
     color: rgba(255, 255, 255, 100);
     font-size: 18px;
     text-align: center;
     font-family: SourceHanSansSC-bold;
+    line-height: 1.6;
 }
-.overview-search {
+.overview-content-search {
     text-align: center;
     padding-top: 10vh;
 }
-.overview-search-container {
+.overview-content-search-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -68,7 +75,7 @@ import { Search as SearchIcon } from "@vicons/fa"
     max-width: 762px;
     height: 66px;
 }
-.overview-search-container-input {
+.overview-content-search-container-input {
     background-color: rgba(247, 247, 247, 0);
     height: 100%;
     outline: none;
@@ -81,37 +88,37 @@ import { Search as SearchIcon } from "@vicons/fa"
     width: 100%;
     border: 0;
 }
-.overview-search-container-input::-webkit-input-placeholder {
+.overview-content-search-container-input::-webkit-input-placeholder {
     color: #9195a3;
 }
-.overview-search-container-button {
+.overview-content-search-container-button {
     font-size: 36px;
     color: #9195a3;
     padding: 0 30px;
 }
-.overview-search-container-button-icon {
+.overview-content-search-container-button-icon {
     display: inline-block;
     vertical-align: middle;
 }
-.overview-hot {
-    line-height: 18px;
+.overview-content-hot {
+    line-height: 25px;
     color: rgba(255, 255, 255, 100);
     font-size: 18px;
     text-align: center;
     font-family: SourceHanSansSC-bold;
     padding-top: 2.8vh;
 }
-.overview-other {
+.overview-content-other {
     padding-top: 2.8vh;
     text-align: center;
 }
-.overview-other-number {
+.overview-content-other-number {
     color: rgba(255, 255, 255, 100);
     font-size: 28px;
     text-align: center;
     font-family: SourceHanSansSC-regular;
 }
-.overview-other-link {
+.overview-content-other-link {
     padding-top: 0.3vh;
     max-width: 200px;
     color: rgba(255, 255, 255, 100);
@@ -121,5 +128,8 @@ import { Search as SearchIcon } from "@vicons/fa"
     margin: 0 auto;
     line-height: 40px;
     padding-bottom: 20px;
+}
+.overview-content {
+    padding: 0 3vw;
 }
 </style>
