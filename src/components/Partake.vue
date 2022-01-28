@@ -15,11 +15,8 @@ import { NSpace } from 'naive-ui'
 <style scoped>
 .partake {
     background-color: rgba(91, 91, 91, 0.8);
-    display: flex;
-    height: 49.13vh;
     background-color: rgba(41, 101, 149, 100);
-    text-align: center;
-    padding: 0 3vw;
+    padding: 10vh 3vw;
 }
 .partake-content {
     margin: auto;
