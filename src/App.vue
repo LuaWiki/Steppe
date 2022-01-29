@@ -1,27 +1,19 @@
-<script setup>
-// This start
-import Header from './components/Header.vue';
-import Overview from './components/Overview.vue';
-import Content from './components/Content.vue';
-import Footer from './components/Footer.vue';
-import Partake from './components/Partake.vue';
-</script>
-
 <template>
-  <Header />
-  <Overview />
-  <Content />
-  <Partake />
-  <Footer />
+  <router-view />
 </template>
+
+<script>
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'App'
+})
+</script>
 
 <style>
 * {
   margin: 0;
   padding: 0;
-}
-body {
-  /*background-color: rgb(242, 242, 242);*/
 }
 a {
   text-decoration: none;

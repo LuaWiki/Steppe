@@ -1,4 +1,5 @@
 export default [
+  { label: "帮助", key: "test0" },
   {
     label: "Steppe社群",
     key: "test1",

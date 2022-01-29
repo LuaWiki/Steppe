@@ -21,16 +21,16 @@ const showDropdown5 = () => { };
 <template>
   <div class="nav">
     <div class="nav-left">
-      <div class="nav-left-title">Steppe</div>
+      <div class="nav-left-title" @click="$router.push('/')">Steppe</div>
     </div>
     <div class="nav-right">
       <div class="nav-right-buttons">
         <n-space>
           <n-dropdown @select="showDropdown1" trigger="hover" :options="options1">
-            <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">首页</n-button>
+            <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">随便看看</n-button>
           </n-dropdown>
           <n-dropdown @select="showDropdown2" trigger="hover" :options="options2">
-            <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">认识Steppe</n-button>
+            <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">认识 Steppe</n-button>
           </n-dropdown>
           <n-dropdown @select="showDropdown3" trigger="hover" :options="options3">
             <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">常用工具</n-button>
@@ -39,9 +39,15 @@ const showDropdown5 = () => { };
             <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">帮助</n-button>
           </n-dropdown>
           <n-dropdown @select="showDropdown5" trigger="hover" :options="options5">
-            <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">中文</n-button>
+            <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">Language</n-button>
           </n-dropdown>
-          <n-button quaternary color="#FFF" style="font-size: 28px;" size="large">登录</n-button>
+          <n-button
+            quaternary
+            color="#FFF"
+            style="font-size: 28px;"
+            size="large"
+            @click="$router.push('/login')"
+          >登录</n-button>
         </n-space>
       </div>
     </div>
