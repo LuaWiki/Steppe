@@ -13,7 +13,7 @@ import { NSpace, NTabs, NTabPane, NForm, NFormItemRow, NInput, NButton, NCard } 
                                 <n-input />
                             </n-form-item-row>
                             <n-form-item-row label="密码">
-                                <n-input />
+                                <n-input type="password" show-password-on="mousedown" />
                             </n-form-item-row>
                         </n-form>
                         <n-button type="primary" block>登录</n-button>
@@ -24,10 +24,10 @@ import { NSpace, NTabs, NTabPane, NForm, NFormItemRow, NInput, NButton, NCard } 
                                 <n-input />
                             </n-form-item-row>
                             <n-form-item-row label="密码">
-                                <n-input />
+                                <n-input type="password" show-password-on="mousedown" />
                             </n-form-item-row>
                             <n-form-item-row label="重复密码">
-                                <n-input />
+                                <n-input type="password" show-password-on="mousedown" />
                             </n-form-item-row>
                         </n-form>
                         <n-button type="primary" block>注册</n-button>

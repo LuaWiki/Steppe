@@ -94,6 +94,7 @@ import { Search as SearchIcon } from "@vicons/fa"
     font-size: 36px;
     color: #9195a3;
     padding: 0 30px;
+    cursor: pointer;
 }
 .overview-content-search-container-button-icon {
     display: inline-block;

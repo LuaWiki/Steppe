@@ -208,14 +208,9 @@
   <hr>
   <p>如果您不知道该如何操作，请求助一些熟悉电子设备操作的朋友。如果您正在使用的是360浏览器、QQ浏览器、搜狗浏览器等，建议将此浏览器卸载，然后安装以上任意一个浏览器。</p>
   <script>
-    function isIE() {
-      if (!!window.ActiveXObject || "ActiveXObject" in window)
-        return true;
-      else
-        return false;
-    }
-    if (!isIE() && window.navigator.userAgent.indexOf("TBS") == -1) {
-      window.location.href = "./";
+    var searchParams = new URLSearchParams(document.location.search.substring(1));
+    if (typeof this.globalThis !== 'undefined' && !window.navigator.userAgent.includes("TBS") && !window.navigator.userAgent.includes("HuaweiBrowser") && !window.navigator.userAgent.includes("HeyTapBrowser") && !window.navigator.userAgent.includes("SamsungBrowser") && !window.navigator.userAgent.includes("BingWeb")) {
+      window.location.href = decodeURIComponent(searchParams.get("referer"));
     }
   </script>
   </head>

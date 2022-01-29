@@ -6,17 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Steppe</title>
   <script>
-    function isIE() {
-      if (!!window.ActiveXObject || "ActiveXObject" in window)
-        return true;
-      else
-        return false;
-    }
-    if(isIE() || window.navigator.userAgent.indexOf("TBS") != -1){
-      window.location.href = "./browser.html";
+    if (typeof this.globalThis === 'undefined' || window.navigator.userAgent.includes("TBS") || window.navigator.userAgent.includes("HuaweiBrowser") || window.navigator.userAgent.includes("HeyTapBrowser") || window.navigator.userAgent.includes("SamsungBrowser") || window.navigator.userAgent.includes("BingWeb")) {
+      window.location.href = "./browser.html?referer=" + encodeURIComponent(window.location.href);
     }
   </script>
-  <script type="module" crossorigin src="./assets/index.35d7895c.js"></script>
+  <script type="module" crossorigin src="./assets/index.f8be5d44.js"></script>
   <link rel="modulepreload" href="./assets/vendor.11b12ea0.js">
   <link rel="stylesheet" href="./assets/index.4e5a6281.css">
 </head>

@@ -76,6 +76,7 @@ const showDropdown5 = () => { };
   font-family: SourceHanSerif-regular;
   color: #fff;
   margin-top: -4px;
+  cursor: pointer;
 }
 .nav-right {
   line-height: 80px;
