@@ -1,24 +1,13 @@
+<script setup>
+import { NResult, NButton } from 'naive-ui'
+</script>
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
-    <div>
-      <div style="font-size: 30vh">
-        404
-      </div>
-
-      <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
-      </div>
-
-      <q-btn
-        class="q-mt-xl"
-        color="white"
-        text-color="blue"
-        unelevated
-        to="/"
-        label="Go Home"
-        no-caps
-      />
-    </div>
+  <div class="error404">
+    <n-result status="404" title="404 资源不存在" description="生活总归带点荒谬">
+      <template #footer>
+        <n-button>找点乐子吧</n-button>
+      </template>
+    </n-result>
   </div>
 </template>
 
@@ -29,3 +18,10 @@ export default defineComponent({
   name: 'Error404'
 })
 </script>
+
+<style scoped>
+.error404 {
+  padding: 25vh 3vw;
+  padding-bottom: 1vh;
+}
+</style>
