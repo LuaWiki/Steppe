@@ -7,6 +7,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/commands": "^0.19.8",
+    "@codemirror/lang-javascript": "^0.19.7",
+    "@codemirror/state": "^0.19.6",
+    "@codemirror/view": "^0.19.40",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12"
   },
