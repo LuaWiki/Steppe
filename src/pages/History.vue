@@ -1,5 +1,5 @@
 <script setup>
-import { NH1 } from 'naive-ui'
+import { NH1, NH2, NList, NListItem, NThing, NSpace, NButton } from 'naive-ui'
 </script>
 
 <template>
@@ -56,444 +56,81 @@ import { NH1 } from 'naive-ui'
                 <a href="#" title="飓风哈蒂">最早</a>
                 <span>） 查看（前50个 |</span>
                 <a href="#" title="飓风哈蒂">后50个</a>
-                <span>）（</span>
-                <a href="#" title="飓风哈蒂">20</a>
-                <span>|</span>
-                <a href="#" title="飓风哈蒂">50</a>
-                <span>|</span>
-                <a href="#" title="飓风哈蒂">100</a>
-                <span>|</span>
-                <a href="#" title="飓风哈蒂">250</a>
-                <span>|</span>
-                <a href="#" title="飓风哈蒂">500</a>
                 <span>）</span>
             </div>
-            <ul class="history-content-pagehistory">
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-                <li>
-                    <span class="history-content-pagehistory-links">
-                        <span>当前</span>
-                        <span>
-                            <a href="#" title="Difference with preceding revision">先前</a>
-                        </span>
-                    </span>
-                    <a href="#" title="飓风哈蒂">2022年1月30日 (日) 15:39</a>&lrm;
-                    <span class="history-content-pagehistory-user">
-                        <a
-                            href="#"
-                            class="history-content-pagehistory-user-link"
-                            title="User:Jarodalien"
-                        >
-                            <bdi>Jarodalien</bdi>
-                        </a>
-                        <span class="history-content-pagehistory-links">
-                            <span>
-                                <a href="#" title="User talk:Jarodalien">讨论</a>
-                            </span>
-                            <span>
-                                <a href="#" title="Special:用户贡献/Jarodalien">贡献</a>
-                            </span>
-                        </span>
-                    </span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-diff-bytes">30,217字节</span>
-                    <span class="history-content-pagehistory-diff-bytes" title="更改后有30,217字节">−8</span>&lrm;
-                    <span class="history-content-pagehistory-separator"></span>
-                    <span class="history-content-pagehistory-parentheses">
-                        回退到由
-                        <a href="#" title="Special:用户贡献/Jarodalien">Jarodalien</a>
-                        <span>（</span>
-                        <a href="#" title="User talk:Jarodalien">讨论</a>）做出的修订版本69918931：四五位数还加什么
-                    </span>
-                    <span class="history-content-pagehistory-links">
-                        <span>
-                            <span>
-                                <a href="#" title="“撤销”可以恢复该编辑并在预览模式下打开编辑表单。它允许在摘要中加入原因。">撤销</a>
-                            </span>
-                        </span>
-                        <span>
-                            <a href="#" title="发送感谢通知给该用户">感谢</a>
-                        </span>
-                    </span>
-                    <span class="history-content-pagehistory-tag">
-                        <a href="#" title="Special:标签">标签</a>：
-                        <span class="history-content-pagehistory-tag-marker">
-                            <a href="#" title="Wikipedia:TW">TW</a>
-                        </span>
-                        <span class="history-content-pagehistory-tag-marker">撤销</span>
-                    </span>
-                </li>
-            </ul>
+            <div class="history-content-pagehistory">
+                <n-space vertical>
+                    <n-list>
+                        <template #header>2021年11月16日（星期二）</template>
+                        <n-list-item>
+                            <template #prefix>
+                                <p>03:59</p>
+                                <p>+14</p>
+                            </template>
+                            <n-thing title="Htmlzycq" description="使用HotCat已添加Category:不列颠科学协会会长">
+                                <template #header-extra>
+                                    <abbr
+                                        class="history-content-pagehistory-minoredit"
+                                        title="该编辑为小编辑"
+                                    >小</abbr>
+                                </template>
+                                <template #action>
+                                    <n-space>
+                                        <n-button size="small">查看</n-button>
+                                        <n-button size="small">感谢</n-button>
+                                        <n-button size="small">撤销</n-button>
+                                    </n-space>
+                                </template>
+                            </n-thing>
+                        </n-list-item>
+                    </n-list>
+                    <n-list>
+                        <template #header>2021年11月17日（星期三）</template>
+                        <n-list-item>
+                            <template #prefix>
+                                <p>03:59</p>
+                                <p>+14</p>
+                            </template>
+                            <n-thing title="Htmlzycq" description="使用HotCat已添加Category:不列颠科学协会会长">
+                                <template #header-extra>
+                                    <abbr
+                                        class="history-content-pagehistory-minoredit"
+                                        title="该编辑为小编辑"
+                                    >小</abbr>
+                                </template>
+                                <template #action>
+                                    <n-space>
+                                        <n-button size="small">查看</n-button>
+                                        <n-button size="small">感谢</n-button>
+                                        <n-button size="small">撤销</n-button>
+                                    </n-space>
+                                </template>
+                            </n-thing>
+                        </n-list-item>
+                        <n-list-item>
+                            <template #prefix>
+                                <p>03:59</p>
+                                <p>+14</p>
+                            </template>
+                            <n-thing title="Htmlzycq" description="使用HotCat已添加Category:不列颠科学协会会长">
+                                <template #header-extra>
+                                    <abbr
+                                        class="history-content-pagehistory-minoredit"
+                                        title="该编辑为小编辑"
+                                    >小</abbr>
+                                </template>
+                                <template #action>
+                                    <n-space>
+                                        <n-button size="small">查看</n-button>
+                                        <n-button size="small">感谢</n-button>
+                                        <n-button size="small">撤销</n-button>
+                                    </n-space>
+                                </template>
+                            </n-thing>
+                        </n-list-item>
+                    </n-list>
+                </n-space>
+            </div>
         </div>
     </div>
 </template>
@@ -556,51 +193,13 @@ export default defineComponent({
     content: none;
 }
 .history-content-pagehistory {
-    margin: 0.3em 0 0 1.6em;
+    margin: 1.6em 0;
 }
-.history-content-pagehistory li {
-    padding: 1px;
-    margin-bottom: 0.2em;
-}
-.history-content-pagehistory-links {
-    display: inline-block;
-}
-.history-content-pagehistory-links::before,
-.history-content-pagehistory-diff-bytes::before,
-.history-content-pagehistory-parentheses::before,
-.history-content-pagehistory-tag::before {
-    content: "（";
-}
-.history-content-pagehistory-links::after,
-.history-content-pagehistory-diff-bytes::after,
-.history-content-pagehistory-parentheses::after,
-.history-content-pagehistory-tag::after {
-    content: "）";
-}
-.history-content-pagehistory-links > span:not(:first-child)::before {
-    content: " | ";
-}
-.history-content-pagehistory-user {
-    margin-left: 0.4em;
-    margin-right: 0.2em;
-}
-.history-content-pagehistory-user-link {
-    word-wrap: break-word;
-    hyphens: auto;
-    unicode-bidi: embed;
-}
-.history-content-pagehistory-separator:empty::before {
-    content: ". .";
-}
-.history-content-pagehistory-parentheses {
-    overflow-wrap: break-word;
-    unicode-bidi: isolate;
-    font-style: italic;
-}
-.history-content-pagehistory-tag-marker::after {
-    content: "、";
-}
-.history-content-pagehistory-tag-marker:last-child::after {
-    content: none;
+.history-content-pagehistory-minoredit {
+    background: #eaecf0;
+    border-radius: 2px;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0 6px 1px;
 }
 </style>
