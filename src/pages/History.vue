@@ -560,7 +560,7 @@ export default defineComponent({
 }
 .history-content-pagehistory li {
     padding: 1px;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
 }
 .history-content-pagehistory-links {
     display: inline-block;
