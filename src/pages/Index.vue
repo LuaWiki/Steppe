@@ -1,7 +1,6 @@
 <script setup>
 import Overview from '../components/Overview.vue';
 import Content from '../components/Content.vue';
-import Footer from '../components/Footer.vue';
 import Partake from '../components/Partake.vue';
 </script>
 
@@ -9,7 +8,6 @@ import Partake from '../components/Partake.vue';
   <Overview />
   <Content />
   <Partake />
-  <Footer />
 </template>
 
 <script>

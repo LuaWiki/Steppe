@@ -23,4 +23,9 @@ a {
 .n-card-header__extra {
   max-width: 45%;
 }
+html,
+body,
+#app {
+  height: 100%;
+}
 </style>
